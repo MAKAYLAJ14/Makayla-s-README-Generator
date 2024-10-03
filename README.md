@@ -1,4 +1,4 @@
-# Makayla-s-README-Generator
+# Makayla's-README-Generator
 
 ## Description 
 This is an homework assignment from module 7. The README generator allows you to run it on your command line. 
