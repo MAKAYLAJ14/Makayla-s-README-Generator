@@ -17,7 +17,7 @@ N/A
 
 ## Liscence 
 
-MIT Liscense 
+MIT Liscense  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Tests
 
