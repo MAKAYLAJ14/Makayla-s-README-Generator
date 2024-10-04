@@ -1,7 +1,8 @@
 # Makayla's-README-Generator
 
-## Description 
-This is an homework assignment from module 7. The README generator allows you to run it on your command line. 
+## Description
+
+N/A
 
 ## Installtion 
 
@@ -9,7 +10,7 @@ N/A
 
 ## Usage
 
-GWU bootcamp and future endeavors. 
+N/A
 
 ## Credits 
 
@@ -17,9 +18,12 @@ N/A
 
 ## Liscence 
 
-MIT Liscense  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+Licensed under the [license type] license
 
 ## Tests
 
-Link to video demonstation : 
+If any questions, please see the following links below.
+Email: 
+Github: 
+
 
