@@ -13,7 +13,8 @@ function renderLicenseLink(license) {
   if (!license) {
     return '';
   }
-  return `[License: ${license}](#license)`;
+  return `[License](#license)`;
+//  return `[License: ${license}](#license)`;
 }
 
 // TODO: Create a function that returns the license section of README
