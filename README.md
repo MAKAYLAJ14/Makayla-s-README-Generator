@@ -1,29 +1,34 @@
-# Makayla's-README-Generator
 
-## Description
+  # N/A
 
-N/A
+  ## Description
+  N/A
 
-## Installtion 
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License: MIT](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-N/A
+  ## Installation Instructions
+  N/A
 
-## Usage
+  ## Usage Information
+  N/A
 
-N/A
+  ## License
+  This project is licensed under the MIT License.
+  ![License Badge](https://img.shields.io/badge/license-MIT-green.svg)
 
-## Credits 
+  ## Contribution Guidelines
+  N/A
 
-N/A
+  ## Tests
+  N/A
 
-## Liscence 
-
-Licensed under the *license-type* license.
-
-## Tests
-
-If any questions, please see the following links below.
-Email: 
-Github: 
-
-
+  ## Questions
+  If any questions, please see the following links below.
+  Email: [N/A](mailto:N/A).
+  Github: [N/A](https://github.com/N/A).

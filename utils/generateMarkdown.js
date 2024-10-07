@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (!license) {
     return '';
   }
-  return `![License](https://img.shields.io/badge/license-${license}-green.svg)`;
+  return `![License Badge](https://img.shields.io/badge/license-${license}-green.svg)`;
 }
 
 // TODO: Create a function that returns the license link
@@ -13,7 +13,7 @@ function renderLicenseLink(license) {
   if (!license) {
     return '';
   }
-  return `[License](#license)`;
+  return `[License: ${license}](#license)`;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -23,7 +23,7 @@ function renderLicenseSection(license) {
     return '';
   }
   return `## License
-  Licensed under the ${license} license`;
+  This project is licensed under the ${license} License.`;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -37,13 +37,13 @@ function generateMarkdown(data) {
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  ${renderLicenseLink(data.license)}
+  - ${renderLicenseLink(data.license)}
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
   ## Installation Instructions
-  ${data.install}
+  ${data.installation}
 
   ## Usage Information
   ${data.usage}
@@ -52,7 +52,7 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   ## Contribution Guidelines
-  ${data.contributing}
+  ${data.contribution}
 
   ## Tests
   ${data.test}
