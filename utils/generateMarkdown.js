@@ -35,13 +35,13 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - ${renderLicenseLink(data.license)}
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+## Table of Contents
+- [Installation Instructions](#installation-instructions)
+- [Usage Information](#usage-information)
+- ${renderLicenseLink(data.license)}
+- [Contribution Guidelines](#contribution-guidelines)
+- [Tests](#tests)
+- [Questions](#questions)
 
   ## Installation Instructions
   ${data.installation}
