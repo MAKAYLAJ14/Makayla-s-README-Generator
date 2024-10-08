@@ -56,7 +56,7 @@ function generateMarkdown(data) {
   ${data.contribution}
 
   ## Tests
-  ${data.test}
+  README.md generator demo link: ${data.test}
 
   ## Questions
   If any questions, please see the following links below.
