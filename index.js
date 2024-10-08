@@ -2,6 +2,21 @@
 import inquirer from "inquirer";
 import fs from "fs";
 import generateMarkdown from './utils/generateMarkdown.js';
+// Creating a License Mapping
+const licenses = {
+    'MIT': {
+        badge: '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)',
+        notice: 'This project is licensed under the MIT License.',
+    },
+    'Apache 2.0': {
+        badge: '![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)',
+        notice: 'This project is licensed under the Apache 2.0 License.',
+    },
+    'GPL 3.0': {
+        badge: '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)',
+        notice: 'This project is licensed under the GPL 3.0 License.',
+    },
+};
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -25,9 +40,10 @@ const questions = [
         message: 'What is the usage information for your README file?',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'What license is your README file under?',
+        message: 'Choose a license for your README file:',
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0'], 
     },
     {
         type: 'input',
